@@ -1,0 +1,153 @@
+body {
+    background-color: #f2eeef;
+}
+:root {
+    font-size: 62.5%;
+}
+header {
+    height: 14.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    padding: 0 5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header .container .logo img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    padding: 5rem;
+}
+.menu ul li{
+    display: flex;
+    font-size: 2.5rem;
+    color: #e0258b;
+}
+.busca_submit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 5rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    color: #f2eeef;
+    cursor: pointer;
+}
+.busca_submit input{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    padding: 0 2rem;
+    font-size: 2rem;
+    background-color: #f2eeef;
+    border: 1px solid #e0258b;
+    color: #e0258b;
+}
+.busca_submit input:focus {
+    outline: none;
+    border: 2px solid #e0258b   ;
+    color: #f57ab8;
+}
+.busca_submit input::placeholder {
+    color: #f57ab8;
+}
+.busca_submit i {
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+    color: #f57ab8;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    gap: 3rem;
+    font-size: 3rem;
+    color: #f2eeef;
+}
+.icons i {
+    background-color: #e0258b;
+    width: 12rem;
+    height: 5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 5rem;
+}
+#compras {
+    font-size: 2rem;
+}
+#login {
+    font-size: 2rem;
+}
+.icons i:hover {
+    transform: scale(1.1);  
+}
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5rem;
+    color: #e0258b;
+    font-size: 2.2rem;
+    border: 1px solid rgba(0, 0, 0, .09);
+    height: 5rem;
+    background-color: #f2eeef;
+}
+.categorias .categorias-lista {
+    display: flex;
+    cursor: pointer;
+    gap: 10rem;
+}
+.categorias .categoria-item:hover {
+    transform: scale(1.1);
+    color: rgba(0, 0, 0, .6);
+}
+.categorias .categoria-item.ativado{
+    color: rgba(0, 0, 0, .6);
+}
+
+.container-produtos {
+    display: flex;
+    width: 100vw;
+    padding: 0 5rem;
+}
+.produtos {
+    display: flex;
+    width: 100%;
+    padding: 0 5rem;
+}
+.produto-item{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.produto-item img {
+    width: 30rem;
+    height: 35rem;
+    padding: 4rem 5rem;
+}
+.produto-item h3 {
+        font-size: 2.5rem;
+        color: #e0258b;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: -2rem;
+}
+.precos {
+    color: #f2eeef;
+    background-color: #e0258b;
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
